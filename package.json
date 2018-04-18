@@ -15,8 +15,7 @@
     "src/**/*.js",
     "src/**/*.d.ts",
     "README.md",
-    "LICENSE",
-    "package.json"
+    "LICENSE"
   ],
   "repository": {
     "type": "git",
