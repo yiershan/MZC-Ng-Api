@@ -1,6 +1,6 @@
 {
   "name": "mzc-ng-api",
-  "version": "1.0.2",
+  "version": "1.0.3-0",
   "description": "个人博客系统，从后台api取数据的angular封装",
   "main": "index.js",
   "types": "./index.d.ts",
