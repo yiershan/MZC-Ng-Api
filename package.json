@@ -1,0 +1,20 @@
+{
+  "name": "mzc-ng-api",
+  "version": "1.0.2",
+  "description": "个人博客系统，从后台api取数据的angular封装",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiershan/MZC-Ng-Api.git"
+  },
+  "keywords": [],
+  "author": "yiershan <511176294@qq.com> (https://www.jianshu.com/u/8afb7e623b70)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yiershan/MZC-Ng-Api/issues"
+  },
+  "homepage": "https://github.com/yiershan/MZC-Ng-Api#readme"
+}
