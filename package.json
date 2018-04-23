@@ -8,7 +8,7 @@
     "build": "tsc -p .",
     "b": "npm run build",
     "version": "npm version prerelease",
-    "v": "mpm run v",
+    "v": "npm run version",
     "publish": "npm run b && npm publish",
     "p": "npm run publish"
   },
