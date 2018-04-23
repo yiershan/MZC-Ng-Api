@@ -1,13 +1,13 @@
 {
   "name": "mzc-ng-api",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "个人博客系统，从后台api取数据的angular封装",
   "main": "index.js",
   "types": "./index.d.ts",
   "scripts": {
     "build": "tsc -p .",
     "b": "npm run build",
-    "version": "npm version release",
+    "version": "npm version patch",
     "v": "npm run version",
     "publish": "npm run b && npm publish",
     "p": "npm run publish"
