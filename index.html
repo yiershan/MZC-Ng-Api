@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/require.js/2.3.5/require.min.js"></script>
+</head>
+<body>
+<script>
+    require(["index"],function(a) {
+        var s = new a.BlogApiService();
+        var r = new a.GetNoteDto();
+        s.GetNoteList(r).subscribe(function (result) {
+            console.log(result);
+        })
+    })
+</script>
+</body>
+</html>

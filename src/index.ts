@@ -1,7 +1,11 @@
+import { NgModule } from '@angular/core';
+import {CommonModule} from "@angular/common";
 
-export class MzcNgApi{
-    private name: string;
-    constructor() {
-        this.name = "MzcNgApi";
-    }
-}
+@NgModule({
+    imports: [
+        CommonModule
+    ],
+    declarations: []
+})
+export class MzcNgApiModule { }
+export * from "./provider"

@@ -5,7 +5,12 @@
   "main": "index.js",
   "types": "./index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p .",
+    "b": "npm run build",
+    "version": "npm version prerelease",
+    "v": "mpm run v",
+    "publish": "npm run b && npm publish",
+    "p": "npm run publish"
   },
   "files": [
     "index.js",
@@ -27,5 +32,17 @@
   "bugs": {
     "url": "https://github.com/yiershan/MZC-Ng-Api/issues"
   },
-  "homepage": "https://github.com/yiershan/MZC-Ng-Api#readme"
+  "homepage": "https://github.com/yiershan/MZC-Ng-Api#readme",
+  "dependencies": {
+    "@angular/common": "^5.0.2",
+    "@angular/core": "^5.0.2",
+    "moment": "^2.22.1",
+    "rxjs": "^5.5.2",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "typescript": "^2.8.1",
+    "typings": "^2.1.1"
+  }
 }
