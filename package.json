@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc -p .",
     "b": "npm run build",
-    "version": "npm version prerelease",
+    "version": "npm version release",
     "v": "npm run version",
     "publish": "npm run b && npm publish",
     "p": "npm run publish"

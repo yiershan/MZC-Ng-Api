@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import {CommonModule} from "@angular/common";
+import {BlogApiService} from "./provider";
 
 @NgModule({
     imports: [
         CommonModule
     ],
-    declarations: []
+    providers:    [ BlogApiService ],
 })
 export class MzcNgApiModule { }
-export * from "./provider"
